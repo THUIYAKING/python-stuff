@@ -1,4 +1,4 @@
-with open('words_in_english_dictionary.txt') as text:
+with open('words_in_english_dictionary.txt', 'r') as text:
     for line in text:
         line = line.strip()
         line2 = line[::-1]
